@@ -8,8 +8,8 @@
         <meta name="application-name" content="Ramiro Benitez"/>
         <meta name="apple-mobile-web-app-title" content="Ramiro Benitez"/>
 
-        <link rel="preload" href="Mi proyecto.png" as="font" type="font/woff2" crossorigin="anonymous">
-        <link rel="preload" href="Mi proyecto.png" as="font" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" href="Fonts/ClashGrotesk-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" href="Fonts/ClashGrotesk-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="icon.png"/>
         <link rel="apple-touch-icon-precomposed" href="Mi proyecto.png"/>
@@ -107,7 +107,16 @@
                         </svg>
                     </div>
                 </section>
-                            </header>
+                <div class="header__bottom inview" style="--inview-order: 3;">
+                    <div class="header__bottom-container container">
+                        <svg class="header__arrow" width="32" height="32">
+                            <use xlink:href="#svg__icon--arrow-down"></use>
+                        </svg>
+
+                        <div class="header__clock" data-clock>00:00</div>
+                    </div>
+                </div>
+            </header>
 
             <main class="main">                
                 <section class="section section--absolute-title" data-inview>
